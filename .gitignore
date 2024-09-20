@@ -1,0 +1,31 @@
+# Node modules for both frontend and BACKEND
+/FRONTEND/node_modules/
+/BACKEND/node_modules/
+
+# Environment files for both frontend and BACKEND
+/FRONTEND/.env
+/BACKEND/.env
+
+# Build files for FRONTEND (React/Vite) and BACKEND (Node.js)
+# Frontend build outputs
+/FRONTEND/dist/
+/FRONTEND/build/
+
+# Backend log files and other temporary files
+/BACKEND/logs/
+BACKEND/tmp/
+
+# Ignore lock files for both package managers
+/FRONTEND/package-lock.json
+/FRONTEND/yarn.lock
+/BACKEND/package-lock.json
+/BACKEND/yarn.lock
+
+# Ignore OS-generated files (common)
+.DS_Store
+Thumbs.db
+
+# Editor-specific settings
+.vscode/
+.idea/
+*.swp
